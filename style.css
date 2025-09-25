@@ -1,0 +1,19 @@
+:root{ --bg:#f6f7fb; --card:#fff; --accent:#4a90e2; --muted:#666;}
+*{box-sizing:border-box}
+body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);margin:0;padding:20px;display:flex;justify-content:center}
+.container{width:100%;max-width:760px}
+header h1{margin:0 0 12px 0;font-size:1.6rem;text-align:center}
+.task-form{display:flex;gap:8px;margin-bottom:12px}
+.task-form input{flex:1;padding:10px;border:1px solid #ddd;border-radius:6px}
+.task-form button{padding:10px 14px;border:none;background:var(--accent);color:#fff;border-radius:6px;cursor:pointer}
+.progress{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.progress-bar-bg{flex:1;height:12px;background:#e8eefc;border-radius:10px;overflow:hidden}
+.progress-bar{height:100%;width:0%;background:var(--accent);transition:width .3s}
+.progress-text{min-width:40px;text-align:right;color:var(--muted);font-weight:600}
+.task-list{list-style:none;padding:0;margin:0}
+.task-item{display:flex;justify-content:space-between;align-items:center;padding:10px;background:var(--card);border:1px solid #ececec;border-radius:8px;margin-bottom:8px}
+.task-item .done{opacity:.6;text-decoration:line-through}
+.controls{display:flex;gap:8px}
+.controls button{padding:6px 8px;border-radius:6px;border:1px solid #ddd;background:#fff;cursor:pointer}
+.empty{color:var(--muted);text-align:center;padding:18px}
+@media (max-width:420px){.task-form button{padding:10px}}
