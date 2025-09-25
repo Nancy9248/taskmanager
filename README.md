@@ -1,0 +1,3 @@
+This project is a simple, yet effective, web-based Task Manager built using fundamental front-end technologies: HTML, CSS, and JavaScript. The application allows users to add, manage, and track the completion of their daily tasks. Its core functionality is centered around providing a clean and intuitive interface for improving personal productivity.
+
+A key feature of this application is the interactive progress tracker, which provides real-time visual feedback on task completion. As tasks are marked as complete, a dynamic progress bar updates, offering a clear overview of one's progress. The application is designed as a single-page solution, making it highly portable and easy to deploy.
